@@ -14,7 +14,7 @@ if (isset($_POST['submit'])) {
 /*     $nombre = filter_var($nombre, FILTER_SANITIZE_FULL_SPECIAL_CHARS); */
     echo $nombre . '<br/>';
   }  else {
-    $errores .= 'Por favor ingresa tu nombre <br />';
+    $errores .= 'Por favor ingresa tu nombre 4<br />';
   } 
     if (!empty($correo)) {
       $correo = filter_var($correo, FILTER_SANITIZE_EMAIL);
